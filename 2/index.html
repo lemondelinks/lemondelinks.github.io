@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html>
-<body style="margin:1em;font-family:sans-serif">
-
-<h1 style="text-align:center;margin-bottom:.5rem">MAP Testing</h1>
-<p style="text-align:center;margin-top:0">Second Grade and Up</p>
-<ul>
-    <li style="margin-bottom:.5em">Students cannot pass or fail this test.</li>
-    <li style="margin-bottom:.5em">This test will not affect grades.</li>
-    <li style="margin-bottom:.5em">It’s normal for students to only answer about half the questions correctly.</li>
-    <li style="margin-bottom:.5em">Please don't help your student understand or answer test questions.</li>
-    <li style="margin-bottom:.5em">These results will help us know what students are ready to learn.</li>
+<head>
+<title>MAP Test: Second Grade and Up</title>
+<style>
+    body{margin:1em;font-family:sans-serif;}
+    a,a:visited{text-decoration:none;color:#00e;}
+    .center,h1,h1+p,h2,h2+p{text-align:center;}
+    h1{margin-bottom:.5rem;}
+    h1+p{margin-top:0;}
+    #notes>li,.specs,.specs+p{margin-bottom:.5em;}
+    .specs+p,.specs+p+ul{margin-top:0;}
+    .specs+ul>li+li,.specs+p+ul>li+li{margin-top:.5em;}
+    ol>li{margin-bottom:1em;}
+    video{width:100%;height:auto;}
+</style>
+</head>
+<body>
+<h1>MAP Test</h1>
+<p>Second Grade and Up</p>
+<ul id="notes">
+    <li>Students cannot pass or fail this test.</li>
+    <li>This test will not affect grades.</li>
+    <li>It’s normal for students to only answer about half the questions correctly.</li>
+    <li>Please don't help your student understand or answer test questions.</li>
+    <li>These results will help us know what students are ready to learn.</li>
 </ul>
-<h2 style="text-align:center">Test Preparation</h2>
-<p style="text-align:center">Please be available to support your child’s during testing.<br>
+<h2>Test Preparation</h2>
+<p>Please be available to support your child’s during testing.<br>
 If you will not be available, please let your teacher know that now.</p>
 <h3>Before Test Day</h3>
 <ol>
-    <li style="margin-bottom:1em">Make sure you have:
+    <li>Make sure you have:
         <ul>
-            <li><a style="text-decoration:none" href="#devices">a compatible device (using the list below)</a>,</li>
+            <li><a href="#devices">a compatible device (using the list below)</a>,</li>
             <li>headphones, and</li>
             <li>an internet connection.</li>
         </ul>
     </li>
-    <li style="margin-bottom:1em"><a style="text-decoration:none" href="https://teach.mapnwea.org/impl/maptraining/DeviceReadiness/story_html5.html">Check Device Readiness</a><br>using the link above or go to check.nwea.org</li>
-    <li style="margin-bottom:1em"><a style="text-decoration:none" href="#video">Watch the introduction video below.</a></li>
-    <li style="margin-bottom:1em">Practice the test at <a style="text-decoration:none" href="https://practice.nwea.org">practice.nwea.org</a><br>Username: grow<br>Password: grow</li>
+    <li><a href="https://teach.mapnwea.org/impl/maptraining/DeviceReadiness/story_html5.html">Check Device Readiness</a><br>using the link above or go to check.nwea.org</li>
+    <li><a href="#video">Watch the introduction video below.</a></li>
+    <li>Practice the test at <a href="https://practice.nwea.org">practice.nwea.org</a><br>Username: grow<br>Password: grow</li>
 </ol>
 <h3>On Test Day</h3>
 <ol>
-    <li style="margin-bottom:1em">Provide a quiet space for testing and reduce distractions for your student as much as possible.</li>
-    <li style="margin-bottom:1em">Join your teacher’s Zoom link and wait for the teacher to open the testing session.</li>
-    <li style="margin-bottom:1em">Use the Session Name and Password to log in at <a style="text-decoration:none" href="https://test.mapnwea.org/#/nopopup">test.mapnwea.org/#/nopopup</a> and wait for the teacher to confirm.</li>
+    <li>Provide a quiet space for testing and reduce distractions for your student as much as possible.</li>
+    <li>Join your teacher’s Zoom link and wait for the teacher to open the testing session.</li>
+    <li>Use the Session Name and Password to log in at <a href="https://test.mapnwea.org/#/nopopup">test.mapnwea.org/#/nopopup</a> and wait for the teacher to confirm.</li>
 </ol>
-<h2 id="video" style="text-align:center">Introduction Video</h2>
-<video controls style="width:100%;height:auto;" id="vidWha" poster="/x/2.jpg">
+<h2 id="video">Introduction Video</h2>
+<video controls id="vidWha" poster="/x/2.jpg">
     <source id="source" src="/x/2.mp4" type="video/mp4">
     <source src="/x/2.ogv" type="video/ogg"> Your browser doesn't support this video. Please try viewing in Safari or Chrome.
     <track src="/x/2.vtt" type="text/vtt" kind="subtitles" srclang="en" label="English"/>
     <track id="subSpa" src="/x/2-ES.vtt" type="text/vtt" kind="subtitles" srclang="es" label="Spanish" />
 </video>
-<h2 id="devices" style="text-align:center">Compatible Devices</h2>
-<h3 style="margin-bottom:.5em">Chromebook</h3>
-<ul style="margin-top:0">
-    <li style="margin-bottom:.5em">Operating System
+<h2 id="devices">Compatible Devices</h2>
+<h3 class="specs">Chromebook</h3>
+<ul>
+    <li>Operating System
         <ul>
             <li>Chrome OS 78 or higher is recommended</li>
             <li>Chrome OS 65 or higher will probably work</li>
@@ -55,9 +69,9 @@ If you will not be available, please let your teacher know that now.</p>
         </ul>
     </li>
 </ul>
-<h3 style="margin-bottom:.5em">Windows PC</h3>
-<ul style="margin-top:0">
-    <li style="margin-bottom:.5em">Operating System
+<h3 class="specs">Windows PC</h3>
+<ul>
+    <li>Operating System
         <ul>
             <li>Windows 7</li>
             <li>Windows 8.1</li>
@@ -72,9 +86,9 @@ If you will not be available, please let your teacher know that now.</p>
         </ul>
     </li>
 </ul>
-<h3 style="margin-bottom:.5em">Mac</h3>
-<ul style="margin-top:0">
-    <li style="margin-bottom:.5em">Operating System
+<h3 class="specs">Mac</h3>
+<ul>
+    <li>Operating System
         <ul>
             <li>MacOS 10.13 or higher is recommended</li>
             <li>MacOS 10.12 or higher will probably work</li>
@@ -88,10 +102,10 @@ If you will not be available, please let your teacher know that now.</p>
         </ul>
     </li>
 </ul>
-<h3 style="margin-bottom:.5em;">iPad</h3>
-<p style="margin-top:0;margin-bottom:.5em;">Using a regular computer is easier than using an iPad because you need to have Zoom and the Internet Browser running at the same time, but you might be able to make an iPad work, especially if you can use the Internet Browser on the iPad and another device for Zoom.</p>
-<ul style="margin-top:0">
-    <li style="margin-bottom:.5em">Operating System
+<h3 class="specs">iPad</h3>
+<p>Using a regular computer is easier than using an iPad because you need to have Zoom and the Internet Browser running at the same time, but you might be able to make an iPad work, especially if you can use the Internet Browser on the iPad and another device for Zoom.</p>
+<ul>
+    <li>Operating System
         <ul>
             <li>iOS 12 or higher is recommended</li>
             <li>iOS 9 or higher will probably work</li>
@@ -100,7 +114,7 @@ If you will not be available, please let your teacher know that now.</p>
     <li>Internet Browser
         <ul>
             <li>Safari</li>
-            <li><a style="text-decoration:none" href="https://apps.apple.com/us/app/nwea-secure-testing/id1087546325">NWEA Secure Testing</a> (not compatible with iPad mini)</li>
+            <li><a href="https://apps.apple.com/us/app/nwea-secure-testing/id1087546325">NWEA Secure Testing</a> (not compatible with iPad mini)</li>
         </ul>
     </li>
 </ul>
